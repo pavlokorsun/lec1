@@ -1,0 +1,54 @@
+.my_container {
+    margin: 40px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+
+#center_div {
+	margin: 30px;
+}
+
+
+.my_fbox {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.my_fbox > div {
+	margin: 10px;
+	width: 290px;
+}
+
+body {
+	background-color: #dadada;
+}
+
+
+.row > div {
+	padding: 15px;
+}
+
+.container {
+	margin-bottom: 10px
+}
+
+@media (min-width: 500px) {
+	.advert::before {
+		content: ;
+	}
+}
+
+@media (max-width: 499px) {
+	.advert::before {
+		content: "HIP App available in the Apple Store";
+	}
+}
